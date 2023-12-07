@@ -1,33 +1,15 @@
 @import 'framework.css';
-/* 
- Table of contents:
- 1. Common styles
- 2. Common responsive styles
- 3. Headers
- 4. Navigations
- 5. Contents
- 6. Testimonials
- 7. Features
- 8. Forms
- 9. Call to Actions
- 10. Teams
- 11. Pricing Tables
- 12. Contacts
- 13. Showcases
- 14. Footers
- 15. Ecommerce
- */
-/* 1. Common styles */
 body {
   font-family: Karla;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #0d0d0d;
+  color: #1a1a1a; 
   -webkit-font-smoothing: antialiased;
 }
+
 body.dev {
-  background: #ccc;
+  background: #946464; 
   min-height: 10000px;
 }
 header, section {
@@ -208,7 +190,7 @@ b, strong {
 }
 .slick-dots li button {
   box-sizing: border-box;
-  border: 2px solid #fff;
+  border: 2px solid #837d7d;
   border-radius: 50%;
   background: transparent;
   display: block;
@@ -227,7 +209,7 @@ b, strong {
   opacity: 0.8;
 }
 .slick-dots li.slick-active button {
-  background: #fff;
+  background: #727070;
   opacity: 1;
 }
 .slick-dots li.slick-active button:hover {
@@ -3411,7 +3393,7 @@ b, strong {
 }
 .ecommerce_11 .slick-arrow:hover:before {
   opacity: 1;
-  background-color: #fff;
+  background-color: #7c7a7a;
 }
 .ecommerce_11 .slick-prev {
   left: auto;
@@ -3441,7 +3423,7 @@ b, strong {
   min-width: 145px;
 }
 .ecommerce_11 input[type=radio]:checked + label {
-  background: #fff;
+  background: #868484;
   color: #0d0d0d;
 }
 .ecommerce_11 input[type=radio] + label {
@@ -4089,7 +4071,7 @@ b, strong {
   background-position: 50% 50%;
 }
 .ecommerce_32 .slider_menu .slick-arrow:hover {
-  background-color: #d9d9d9;
+  background-color: #9c9999;
 }
 .ecommerce_32 .slider_menu .slick-arrow:hover:before {
   opacity: 1;
